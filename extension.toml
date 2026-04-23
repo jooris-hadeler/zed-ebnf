@@ -7,8 +7,8 @@ description = "Syntax highlighting for Extended Backus-Naur Form (EBNF)"
 repository = "https://github.com/jooris-hadeler/zed-ebnf"
 
 [grammars.ebnf]
-repository = "https://github.com/jooris-hadler/tree-sitter-ebnf"
-commit = "HEAD"
+repository = "https://github.com/jooris-hadeler/tree-sitter-ebnf"
+rev = "72639c4b6a692650ea60e1cc2edcdf28e8372c74"
 
 [lib]
 version = "0.1.0"
