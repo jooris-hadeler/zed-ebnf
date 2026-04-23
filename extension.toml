@@ -8,7 +8,7 @@ repository = "https://github.com/jooris-hadeler/zed-ebnf"
 
 [grammars.ebnf]
 repository = "https://github.com/jooris-hadler/tree-sitter-ebnf"
-commit = "main"
+commit = "HEAD"
 
 [lib]
 version = "0.1.0"
