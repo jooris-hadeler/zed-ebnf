@@ -1,0 +1,15 @@
+name = "EBNF"
+grammar = "ebnf"
+path_suffixes = ["ebnf"]
+brackets = [
+    { start = "{", end = "}", close = true, newline = true },
+    { start = "[", end = "]", close = true, newline = true },
+    { start = "(", end = ")", close = true, newline = false },
+    { start = "(/", end = "/)", close = true, newline = false },
+    { start = "(:", end = ":)", close = true, newline = false },
+    { start = "\"", end = "\"", close = true, newline = false },
+    { start = "'", end = "'", close = true, newline = false }
+]
+
+[language_server]
+# Leave empty
